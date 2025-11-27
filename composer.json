@@ -1,0 +1,12 @@
+{
+    "name": "api/web",
+    "description": "Web Page Builder",
+    "type": "library",
+    "license": "MIT License",
+    "autoload": {
+        "psr-4": {
+            "Api\\Web\\": "src/"
+        }
+    },
+    "require": {}
+}

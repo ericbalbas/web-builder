@@ -1,0 +1,26 @@
+# Environment file
+.env
+
+# Composer vendor folder
+/vendor/
+
+# Cache / temporary files
+/tmp/
+/cache/
+/logs/
+
+# Helpers folder (if you want to ignore it)
+/helpers/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.idea/
+.vscode/
+*.iml
+
+# PHPStorm / JetBrains
+/.idea/
+/*.iml
