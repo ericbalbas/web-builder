@@ -4,7 +4,7 @@ namespace Api\Web\Components\Embedded;
 
 use Api\Web\Core\Component;
 
-class Object extends Component {
+class Obj extends Component {
     protected $tag = 'object';
 }
 

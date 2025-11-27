@@ -1,11 +1,6 @@
 <?php
 require_once '../vendor/autoload.php';
 
-use Api\Web\Components\Button;
-use Api\Web\Components\Div;
-use Api\Web\Components\Form;
-use Api\Web\Components\Input;
-
 
 $form = (new Form())
     ->setAttrs([

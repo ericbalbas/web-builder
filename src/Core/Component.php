@@ -2,6 +2,10 @@
 
 namespace Api\Web\Core;
 
+use Api\Web\Core\Traits\GlobalAttributesTrait;
+use Api\Web\Core\Traits\FormAttributesTrait;
+use Api\Web\Core\Traits\MediaAttributesTrait;
+
 /**
  * Class Component
  * 
@@ -103,6 +107,12 @@ abstract class Component
     }
 
 
+    // Traits; 
+    use GlobalAttributesTrait,
+        FormAttributesTrait,
+        MediaAttributesTrait
+    ;
+
     /**
      * Render all HTML attributes as string
      * 
@@ -118,6 +128,24 @@ abstract class Component
 
         return $html;
     }
+
+    /**
+     * Generate multiple children from an array
+     * @param array $items
+     * @param callable $c Receives each item, should return a Component
+     * @return self
+     */
+    public function mapChild(array $children, callable $callback = null): self
+    {
+        foreach ($children as $child) {
+            if ($callback) {
+                $child = $callback($child);
+            }
+            $this->addChild($child);
+        }
+        return $this;
+    }
+
 
     /**
      * Render all child components recursively
