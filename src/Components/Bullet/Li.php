@@ -1,6 +1,6 @@
 <?php
 
-namespace Exo\Web\Components\List;
+namespace Exo\Web\Components\Bullet;
 
 use Exo\Web\Core\Component;
 
