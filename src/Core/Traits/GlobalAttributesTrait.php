@@ -1,5 +1,5 @@
 <?php
-namespace Api\Web\Core\Traits;
+namespace Exo\Web\Core\Traits;
 
 trait GlobalAttributesTrait {
     public function id(string $id) : self {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Api\Web\Core\Traits;
+namespace Exo\Web\Core\Traits;
 
 trait FormAttributesTrait
 {
