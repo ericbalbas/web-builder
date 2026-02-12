@@ -1,8 +1,8 @@
 <?php
 
-namespace Api\Web\Components\Table;
+namespace Exo\Web\Components\Table;
 
-use Api\Web\Core\Component;
+use Exo\Web\Core\Component;
 
 class Tfoot extends Component {
     protected $tag = 'tfoot';

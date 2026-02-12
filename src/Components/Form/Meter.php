@@ -1,8 +1,8 @@
 <?php
 
-namespace Api\Web\Components\Form;
+namespace Exo\Web\Components\Form;
 
-use Api\Web\Core\Component;
+use Exo\Web\Core\Component;
 
 class Meter extends Component {
     protected $tag = 'meter';

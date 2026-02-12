@@ -1,10 +1,10 @@
 <?php
 
-namespace Api\Web\Core;
+namespace Exo\Web\Core;
 
-use Api\Web\Core\Traits\GlobalAttributesTrait;
-use Api\Web\Core\Traits\FormAttributesTrait;
-use Api\Web\Core\Traits\MediaAttributesTrait;
+use Exo\Web\Core\Traits\GlobalAttributesTrait;
+use Exo\Web\Core\Traits\FormAttributesTrait;
+use Exo\Web\Core\Traits\MediaAttributesTrait;
 
 /**
  * Class Component

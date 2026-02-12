@@ -1,8 +1,8 @@
 <?php
 
-namespace Api\Web\Components\Embedded;
+namespace Exo\Web\Components\Embedded;
 
-use Api\Web\Core\Component;
+use Exo\Web\Core\Component;
 
 class Param extends Component {
     protected $tag = 'param';

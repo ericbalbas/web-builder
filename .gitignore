@@ -14,7 +14,7 @@
 
 # OS files
 .DS_Store
-Thumbs.db
+
 
 # IDE/editor files
 .idea/
@@ -23,4 +23,4 @@ Thumbs.db
 
 # PHPStorm / JetBrains
 /.idea/
-/*.iml
+/*.imlThumbs.db

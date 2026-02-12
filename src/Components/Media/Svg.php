@@ -1,8 +1,8 @@
 <?php
 
-namespace Api\Web\Components\Media;
+namespace Exo\Web\Components\Media;
 
-use Api\Web\Core\Component;
+use Exo\Web\Core\Component;
 
 class Svg extends Component {
     protected $tag = 'svg';

@@ -1,8 +1,8 @@
 <?php
 
-namespace Api\Web\Components\Layout;
+namespace Exo\Web\Components\Layout;
 
-use Api\Web\Core\Component;
+use Exo\Web\Core\Component;
 
 class Aside extends Component {
     protected $tag = 'aside';

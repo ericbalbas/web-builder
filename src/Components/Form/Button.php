@@ -1,7 +1,8 @@
-<?php 
-namespace Api\Web\Components\Form;
+<?php
 
-use Api\Web\Core\Component;
+namespace Exo\Web\Components\Form;
+
+use Exo\Web\Core\Component;
 
 class Button extends Component {
     protected $tag = 'button';

@@ -1,8 +1,8 @@
 <?php
 
-namespace Api\Web\Components\Link;
+namespace Exo\Web\Components\Link;
 
-use Api\Web\Core\Component;
+use Exo\Web\Core\Component;
 
 class A extends Component {
     protected $tag = 'a';

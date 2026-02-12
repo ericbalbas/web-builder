@@ -82,6 +82,7 @@ $img = (new Img())
 $table = (new Table())
     ->class('table')
     ->addChild(
+        
         (new Tr())->mapChild([['Row 1', 'Cell 1'], ['Row 2', 'Cell 2']], function($row) {
             return (new Tr)->mapChild($row, function($cell) {
                 return (new Td)->setContext($cell);
@@ -99,6 +100,7 @@ $footer = (new Footer())->setContext('© 2025 Test Page')->class('footer');
 
 // Assemble Body
 $body->mapChild([$header, $paragraph, $form, $img, $table, $ul, $footer]);
+
 // Assemble HTML
 $html->addChild($head)
     ->addChild($body);

@@ -1,11 +1,12 @@
-<?php 
-namespace Api\Web\Components\Form;
+<?php
 
-use Api\Web\Core\Component;
+namespace Exo\Web\Components\Form;
 
-class Input extends Component{
+use Exo\Web\Core\Component;
+
+class Input extends Component {
     protected $tag = 'input';
-    protected $isSelfClosingTag = true;
+    protected $selfClosing = true;
 }
 
 ?>

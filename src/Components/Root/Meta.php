@@ -1,8 +1,8 @@
 <?php
 
-namespace Api\Web\Components\Root;
+namespace Exo\Web\Components\Root;
 
-use Api\Web\Core\Component;
+use Exo\Web\Core\Component;
 
 class Meta extends Component {
     protected $tag = 'meta';

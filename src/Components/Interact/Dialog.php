@@ -1,8 +1,8 @@
 <?php
 
-namespace Api\Web\Components\Interact;
+namespace Exo\Web\Components\Interact;
 
-use Api\Web\Core\Component;
+use Exo\Web\Core\Component;
 
 class Dialog extends Component {
     protected $tag = 'dialog';

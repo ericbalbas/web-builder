@@ -1,8 +1,8 @@
 <?php
 
-namespace Api\Web\Components\Typography;
+namespace Exo\Web\Components\Typography;
 
-use Api\Web\Core\Component;
+use Exo\Web\Core\Component;
 
 class Q extends Component {
     protected $tag = 'q';

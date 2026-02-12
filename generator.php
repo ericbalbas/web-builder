@@ -21,18 +21,18 @@ $selfClosingTags = [
 
 $categories = [
 
-    // 'Root' => [
-    //     'Html',
-    //     'Head',
-    //     'Body',
-    //     'Title',
-    //     'Base',
-    //     'Link',
-    //     'Meta',
-    //     'Style',
-    //     'Script',
-    //     'Noscript'
-    // ],
+    'Root' => [
+        'Html',
+        'Head',
+        'Body',
+        'Title',
+        'Base',
+        'Link',
+        'Meta',
+        'Style',
+        'Script',
+        'Noscript'
+    ],
 
     'Layout' => [
         'Header',
@@ -96,14 +96,14 @@ $categories = [
     ],
 
     'Form' => [
-        // 'Form',
-        // 'Input',
+        'Form',
+        'Input',
         'Textarea',
         'Select',
         'Option',
         'Optgroup',
         'Label',
-        // 'Button',
+        'Button',
         'Fieldset',
         'Legend',
         'Datalist',
@@ -171,7 +171,7 @@ foreach ($categories as $folder => $classes) {
         $tag = toTag($class);
         $file = $dir . $class . '.php';
 
-        $namespace = "Api\\Web\\Components\\$folder";
+        $namespace = "Exo\\Web\\Components\\$folder";
 
         $isSelfClosing = in_array($tag, $selfClosingTags);
         $selfClosingProperty = $isSelfClosing
@@ -183,7 +183,7 @@ foreach ($categories as $folder => $classes) {
 
 namespace $namespace;
 
-use Api\\Web\\Core\\Component;
+use Exo\\Web\\Core\\Component;
 
 class $class extends Component {
     protected \$tag = '$tag';

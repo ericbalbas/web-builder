@@ -4,8 +4,8 @@ namespace Exo\Web\Components\Embedded;
 
 use Exo\Web\Core\Component;
 
-class Iframe extends Component {
-    protected $tag = 'iframe';
+class Object extends Component {
+    protected $tag = 'object';
 }
 
 ?>
